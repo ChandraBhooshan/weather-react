@@ -42,7 +42,7 @@ function Weather2() {
             return;
         }
 
-        setFetching(true);
+        // setFetching(true);
 
         const url = `http://localhost:5000/weather?city=${city}`;
         const weatherData = await fetch(`${url}`)
