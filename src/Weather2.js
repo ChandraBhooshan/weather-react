@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 function Weather2() {
     const [loading, setLoading] = useState(true);
-    const [fetching, setFetching] = useState(false);
+    // const [fetching, setFetching] = useState(false);
     // const inputBox = document.querySelector(".inputBox");
     // const searchButton = document.querySelector(".searchButton");
     const weatherImage = document.querySelector(".weatherImage");
